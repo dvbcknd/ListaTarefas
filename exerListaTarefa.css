@@ -1,0 +1,96 @@
+    body {
+        background-color: rgb(95, 158, 160);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    #container {
+        background-color: antiquewhite;
+        border-radius: 10px;
+        padding: 50px;
+        height: 90vh;
+        overflow: auto;
+    }
+
+    h1 {
+        color: rgb(9, 201, 182);
+    }
+
+    #input {
+        width: 400px;
+        height: 50px;
+        border-radius: 10px;
+        overflow: auto;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    #add {
+        width: 150px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: rgb(9, 201, 182);
+        color: #ffffff;
+        font-size: 18px;
+    }
+
+    .done {
+        width: 30px;
+        height: 30px;
+        accent-color: rgb(0, 128, 0);
+    }
+
+    #add,
+    .done,
+    .remove {
+        cursor: pointer;
+    }
+
+    .tasks[data-status="completed"] {
+        text-decoration: line-through;
+        color: rgb(243, 101, 101);
+    }
+
+
+    #list {
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+
+    .item-list {
+        padding: 10px;
+        margin: 10px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: solid 1px rgba(107, 104, 104, 0.5);
+    }
+
+
+    .tasks {
+        width: 300px;
+        height: 70px;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        text-align: justify;
+        overflow-wrap: break-word;
+        overflow: auto;
+        background-color: rgb(255, 255, 255);
+        box-shadow: rgb(166, 166, 166) 1px 5px 5px 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+
+    .remove {
+        border-radius: 10px;
+        background-color: rgb(243, 101, 101);
+        height: 50px;
+    }
